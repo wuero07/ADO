@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/autubus3">
+
+    <EditText
+        android:id="@+id/editTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"/>
+
+    <Spinner
+        android:id="@+id/spinnerOrigin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/spinnerDestination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buttonDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seleccionar Fecha"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:backgroundTint="#FB0303"/>
+
+    <Button
+        android:id="@+id/buttonTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seleccionar Hora"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:backgroundTint="#FB0303"/>
+
+    <TextView
+        android:id="@+id/textViewTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total: $"
+        android:textColorHint="@color/white"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/buttonUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Actualizar"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:backgroundTint="#FB0303"/>
+
+    <Button
+        android:id="@+id/buttonCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancelar"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:backgroundTint="#FB0303"/>
+
+    <Button
+        android:id="@+id/buttonReturnToMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regresar al Menú"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:backgroundTint="#FB0303"/>
+</LinearLayout>

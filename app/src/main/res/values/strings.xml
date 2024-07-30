@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ADO</string>
+    <string name="username_hint">Nombre de usuario</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="register_button_text">Registrar</string>
+    <string name="register_success">Registro exitoso</string>
+    <string name="fill_all_fields">Por favor, completa todos los campos</string>
+    <string name="login_button_text">Iniciar sesión</string>
+    <string name="login_success">Inicio de sesión exitoso</string>
+    <string name="login_failed">Datos incorrectos</string>
+    <string name="button_sell_text">Vender</string>
+    <string name="button_consult_text">Consultar</string>
+    <string name="button_update_text">Actualizar</string>
+    <string name="button_delete_text">Eliminar</string>
+    <string name="hint_id">ID</string>
+    <string name="button_search_text">Buscar</string>
+    <string name="details_ticket">Detalles del boleto</string>
+    <string name="button_return_menu_text">Regresar al Menú</string>
+    <string name="sale_not_found">No se encontró ningún dato.</string>
+
+
+</resources>
